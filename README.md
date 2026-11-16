@@ -5,13 +5,13 @@ Each module is in its own folder.
 
 ## Modules
 
-| Module | Folder | Topic | Status |
-|--------|--------|-------|--------|
-| Python - 0 - Starting  | [`python-0`](python-0) | Python basics | In progress |
-| Python - 1 - Array     | `python-1` | Arrays, NumPy, images | Not started |
-| Python - 2 - DataTable | `python-2` | pandas, matplotlib | Not started |
-| Python - 3 - OOP       | `python-3` | Object-oriented programming | Not started |
-| Python - 4 - Dod       | `python-4` | Data-oriented design | Not started |
+| Module | Folder | Topic | Status | Grade |
+|--------|--------|-------|--------|-------|
+| Python - 0 - Starting  | [`python-0`](python-0) | Python basics | In progress | - |
+| Python - 1 - Array     | `python-1` | Arrays, NumPy, images | Not started | - |
+| Python - 2 - DataTable | `python-2` | pandas, matplotlib | Not started | - |
+| Python - 3 - OOP       | `python-3` | Object-oriented programming | Not started | - |
+| Python - 4 - Dod       | `python-4` | Data-oriented design | Not started | - |
 
 ## Setup
 

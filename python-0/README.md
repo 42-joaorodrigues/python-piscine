@@ -1,9 +1,15 @@
 # Python - 0 - Starting
 
+## Grade
+
+-
+
+## Exercises
+
 | Ex | Title | Status |
 |----|-------|--------|
-| 00 | First python script | Not started |
-| 01 | First use of package | Not started |
+| 00 | First python script | Done |
+| 01 | First use of package | Done |
 | 02 | First function python | Not started |
 | 03 | NULL not found | Not started |
 | 04 | Even or Odd | Not started |
