@@ -20,7 +20,7 @@ Use the same Python version as the 42 machines (3.10):
 ```bash
 uv venv --python 3.10 .venv
 source .venv/bin/activate
-uv pip install flake8
+uv pip install flake8 ruff
 ```
 
 ## Norm
@@ -29,6 +29,12 @@ Every file must pass flake8:
 
 ```bash
 flake8 --exclude .venv .
+```
+
+Ruff auto-fixes most flake8 issues, configured in `ruff.toml`:
+
+```bash
+ruff format . && ruff check --fix .
 ```
 
 ## Run an exercise

@@ -1,0 +1,6 @@
+line-length = 79          # flake8's limit, ruff defaults to 88
+target-version = "py310"  # the 42 machines' version
+
+[lint]
+preview = true            # needed for ruff's version of whitespace rules like E203
+select = ["E", "W", "F"]  # same rule families flake8 uses (pycodestyle + pyflakes)
