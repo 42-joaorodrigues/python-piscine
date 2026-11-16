@@ -1,4 +1,4 @@
-# Python Piscine — 42
+# Python Piscine - 42
 
 My solutions to the 42 Python piscine (Python for Data Science).
 Each module is in its own folder.
