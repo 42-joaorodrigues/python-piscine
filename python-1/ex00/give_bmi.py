@@ -1,8 +1,9 @@
 import numpy as np
 
 
-def give_bmi(height: list[int | float],
-             weight: list[int | float]) -> list[int | float]:
+def give_bmi(
+    height: list[int | float], weight: list[int | float]
+) -> list[int | float]:
     """Return the BMI for each height/weight pair."""
     try:
         if not isinstance(height, list) or not isinstance(weight, list):
@@ -16,7 +17,7 @@ def give_bmi(height: list[int | float],
             raise ValueError("height and weight must have the same size")
         h = np.array(height)
         w = np.array(weight)
-        return (w / h ** 2).tolist()
+        return (w / h**2).tolist()
     except (ValueError, TypeError) as e:
         print(f"Error: {e}")
         return []
