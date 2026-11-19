@@ -5,7 +5,7 @@ from load_csv import load
 
 def main():
     """Plot a country's life expectancy projections."""
-    country = "Brazil"
+    country = "Luxembourg"
     df = load("../assets/life_expectancy_years.csv")
     if df is None:
         return

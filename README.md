@@ -16,7 +16,7 @@ processing, pandas, OOP and data-oriented design.
 |--------|-------|--------|-------|
 | [0 · Starting](python-0) | Python basics | Done | 100/100 |
 | [1 · Array](python-1) | Arrays, NumPy, images | Done | - |
-| [2 · DataTable](python-2) | pandas, matplotlib | In progress | - |
+| [2 · DataTable](python-2) | pandas, matplotlib | Done | - |
 | 3 · OOP | Object-oriented programming | Not started | - |
 | 4 · Dod | Data-oriented design | Not started | - |
 
