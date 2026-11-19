@@ -19,6 +19,25 @@
 | 08 | Recode filter | Done |
 | 09 | My first package creation | Done |
 
+## Highlights
+
+**ex05: character counter** (`python building.py "Hello World! 42"`):
+```
+The text contains 15 characters:
+2 upper letters
+8 lower letters
+1 punctuation marks
+2 spaces
+2 digits
+```
+
+**ex06: Morse code** (`python sos.py "sos"`):
+```
+... --- ...
+```
+
+**ex09: my own pip package.** Build and usage are in [`ex09/README.md`](ex09/README.md).
+
 ## Run an exercise
 
 ```bash

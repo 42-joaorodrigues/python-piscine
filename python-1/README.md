@@ -17,6 +17,20 @@
 
 Images used by ex02–ex05 are in [`assets/`](assets).
 
+## Highlights
+
+**ex03: zoom.** It cuts a 400×400 single-channel area from `animal.jpeg`:
+
+![zoom](screenshots/zoom.png)
+
+**ex04: transpose, written by hand.** The image is mirrored over its diagonal:
+
+![transpose](screenshots/rotate.png)
+
+**ex05: colour filters.** Each one is restricted to certain operators:
+
+![filters](screenshots/filters.png)
+
 ## Run an exercise
 
 ```bash
