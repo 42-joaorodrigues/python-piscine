@@ -11,7 +11,7 @@ def ft_load(path: str) -> np.ndarray:
             raise TypeError("path must be a string")
         with Image.open(path) as img:
             rgb = img.convert("RGB")
-    except (OSError, TypeError) as e:
+    except (OSError, TypeError, ValueError) as e:
         print(f"Error: {e}")
         return np.array([])
     arr = np.array(rgb)
